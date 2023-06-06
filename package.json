@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +13,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "csv-parser": "^3.0.0",
-    "inquirer": "^9.2.7",
+    "inquirer": "^8.0.0",
     "lodash": "^4.17.21",
     "xml2js": "^0.6.0",
     "yargs": "^17.7.2"
